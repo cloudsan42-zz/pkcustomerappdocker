@@ -146,7 +146,7 @@ public class CustomerService {
 	@Bean
 	ApiInfo apiInfo() {
 		System.out.println("apiInfo.................................................................");
-		ApiInfo apiInfo = new ApiInfo("TMobile", "ProKarkma POC for mPOS", "0.0.0", "", "", "", "");
+		ApiInfo apiInfo = new ApiInfo("TMobile", "ProKarma POC for mPOS", "0.0.0", "", "", "", "");
 		return apiInfo;
 	}
 
